@@ -6,7 +6,7 @@ Find a random instance of an ActiveRecord model within an association.
   User.find_one_random
 
 
-  For larger sets of randomly-selected instances, use find_random with the number of instance you would like returned.
-  These instance are guaranteed to be unique within the returned set.
+For larger sets of randomly-selected instances, use find_random with the number of instance you would like returned.
+These instance are guaranteed to be unique within the returned set.
 
   User.find_random 2

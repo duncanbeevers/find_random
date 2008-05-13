@@ -1,7 +1,7 @@
 Find a random instance of an ActiveRecord model within an association.
 
-  For finding a single random instance, use find_one_random, which uses a SQL count query and offset to
-  efficiently return a single random instance.
+For finding a single random instance, use find_one_random, which uses a SQL count query and offset to
+efficiently return a single random instance.
 
   User.find_one_random
 

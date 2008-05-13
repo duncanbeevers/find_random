@@ -4,7 +4,7 @@ class ActiveRecord::Base
   end
 
   def self.find_random how_many
-    find(find_random_ids)
+    find(find_random_ids(how_many))
   end
 
   def self.find_random_ids how_many
